@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.14" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Abstracts\" />
+    <None Remove="Concretes\" />
+    <None Remove="Concretes\EntityFramework\" />
+    <None Remove="Concretes\EntityFramework\Contexts\" />
+    <None Remove="Concretes\EntityFramework\Concretes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstracts\" />
+    <Folder Include="Concretes\" />
+    <Folder Include="Concretes\EntityFramework\" />
+    <Folder Include="Concretes\EntityFramework\Contexts\" />
+    <Folder Include="Concretes\EntityFramework\Concretes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.Entity\Blog.Entity.csproj" />
+  </ItemGroup>
+</Project>

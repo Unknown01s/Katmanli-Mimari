@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/obj/Debug/net7.0/scopedcss/projectbundle/Blog.Entity.bundle.scp.css",
+      "PackagePath": "staticwebassets/Blog.Entity.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/wwwroot/background.png",
+      "PackagePath": "staticwebassets/background.png"
+    },
+    {
+      "Id": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/wwwroot/exampleJsInterop.js",
+      "PackagePath": "staticwebassets/exampleJsInterop.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Blog.Entity.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Blog.Entity.props",
+      "PackagePath": "build\\Blog.Entity.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Blog.Entity.props",
+      "PackagePath": "buildMultiTargeting\\Blog.Entity.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Blog.Entity.props",
+      "PackagePath": "buildTransitive\\Blog.Entity.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

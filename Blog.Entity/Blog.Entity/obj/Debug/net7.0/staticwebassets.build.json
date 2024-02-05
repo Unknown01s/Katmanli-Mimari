@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "uuYv/eTey9yOnuPRC+sWmr5NXdexIOR0Hv4Cd4TgOGU=",
+  "Source": "Blog.Entity",
+  "BasePath": "_content/Blog.Entity",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Blog.Entity/wwwroot",
+      "Source": "Blog.Entity",
+      "ContentRoot": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/wwwroot/",
+      "BasePath": "_content/Blog.Entity",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/obj/Debug/net7.0/scopedcss/bundle/Blog.Entity.styles.css",
+      "SourceId": "Blog.Entity",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/obj/Debug/net7.0/scopedcss/bundle/",
+      "BasePath": "_content/Blog.Entity",
+      "RelativePath": "Blog.Entity.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/obj/Debug/net7.0/scopedcss/bundle/Blog.Entity.styles.css"
+    },
+    {
+      "Identity": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/obj/Debug/net7.0/scopedcss/projectbundle/Blog.Entity.bundle.scp.css",
+      "SourceId": "Blog.Entity",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "BasePath": "_content/Blog.Entity",
+      "RelativePath": "Blog.Entity.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/obj/Debug/net7.0/scopedcss/projectbundle/Blog.Entity.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/wwwroot/background.png",
+      "SourceId": "Blog.Entity",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/wwwroot/",
+      "BasePath": "_content/Blog.Entity",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/background.png"
+    },
+    {
+      "Identity": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/wwwroot/exampleJsInterop.js",
+      "SourceId": "Blog.Entity",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/alihansmac/Desktop/Blog Project/Blog.Entity/Blog.Entity/wwwroot/",
+      "BasePath": "_content/Blog.Entity",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/exampleJsInterop.js"
+    }
+  ]
+}
