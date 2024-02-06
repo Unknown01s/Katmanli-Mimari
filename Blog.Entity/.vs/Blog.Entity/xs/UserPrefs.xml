@@ -1,29 +1,32 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.ItemProperties.Blog.DataAccses FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Blog.DataAccses/Concretes/EntityFramework/Concretes/CommentRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blog.Buisness/Concretes/CommentService.cs">
     <Files>
-      <File FileName="Blog.DataAccses/Concretes/EntityFramework/Concretes/CommentRepository.cs" Line="13" Column="1" />
+      <File FileName="Blog.Buisness/Concretes/BaseService.cs" Line="44" Column="40" />
+      <File FileName="Blog.Buisness/Concretes/UserService.cs" Line="13" Column="4" />
+      <File FileName="Blog.Buisness/Concretes/PostService.cs" Line="12" Column="4" />
+      <File FileName="Blog.Buisness/Concretes/CommentService.cs" Line="10" Column="87" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Blog.Entity" expanded="True">
+          <Node name="Blog.Entity">
+            <Node name="Blog.Buisness">
+              <Node name="Concretes" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
             <Node name="Blog.DataAccses">
               <Node name="Abstracts" expanded="True" />
               <Node name="Concretes" expanded="True">
                 <Node name="EntityFramework" expanded="True">
-                  <Node name="Concretes" expanded="True">
-                    <Node name="CommentRepository.cs" selected="True" />
-                  </Node>
-                  <Node name="Contexts" expanded="True" />
+                  <Node name="Concretes" expanded="True" />
                 </Node>
               </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+            <Node name="Blog.Entity" expanded="True">
+              <Node name="Abstracts" expanded="True" />
+              <Node name="Concretes" expanded="True" />
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
@@ -31,4 +34,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Blog.DataAccses FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Blog.Buisness FirstBuild="True" />
 </Properties>

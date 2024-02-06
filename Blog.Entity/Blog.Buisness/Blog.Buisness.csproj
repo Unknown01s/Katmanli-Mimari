@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Abstracts\" />
+    <None Remove="Concretes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abstracts\" />
+    <Folder Include="Concretes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.Entity\Blog.Entity.csproj" />
+    <ProjectReference Include="..\Blog.DataAccses\Blog.DataAccses.csproj" />
+  </ItemGroup>
+</Project>
